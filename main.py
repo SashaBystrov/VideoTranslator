@@ -6,7 +6,7 @@ import speech_recognition as sr
 import os
 import tempfile
 
-# Определите путь для сохранения конечного видео
+
 output_dir = os.path.expanduser("~/Desktop/VideoTranslatorOutput")
 os.makedirs(output_dir, exist_ok=True)
 
@@ -20,11 +20,11 @@ def extract_audio_text(videoclip, temp_dir):
     temp_audio_file = os.path.join(temp_dir, "extracted_audio.wav")
     videoclip.audio.write_audiofile(temp_audio_file, codec="pcm_s16le")
 
-    # Преобразование аудио в текст
+
     r = sr.Recognizer()
     with sr.AudioFile(temp_audio_file) as source:
         audio = r.record(source)
-        text = r.recognize_sphinx(audio)  # Используем Sphinx для оффлайн-распознавания
+        text = r.recognize_sphinx(audio)
 
     return text
 
@@ -52,6 +52,8 @@ def synthesize_speech(text, temp_dir):
 def video_to_translate(file_video):
     with tempfile.TemporaryDirectory() as local_temp_dir:
 
+        video_name = os.path.splitext(os.path.basename(file_video))[0]
+
         videoclip = mp.VideoFileClip(file_video)
 
         extracted_text = extract_audio_text(videoclip, local_temp_dir)
@@ -63,7 +65,7 @@ def video_to_translate(file_video):
         audioclip = mp.AudioFileClip(temp_speech_path)
         videoclip = videoclip.set_audio(audioclip)
 
-        output_video_path = os.path.join(output_dir, "translated_video.mp4")
+        output_video_path = os.path.join(output_dir, f"{video_name}_ru.mp4")
         videoclip.write_videofile(output_video_path)
 
         return output_video_path
@@ -73,3 +75,4 @@ gr.Interface(fn=video_to_translate,
              outputs=gr.Video(),
              title='Video Translator'
              ).launch()
+
