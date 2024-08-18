@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71cae3b9-e4e6-4c33-82fa-bc337f4bcb3d" name="Changes" comment="release 1.2">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001 Teaser_with_subsTEMP_MPY_wvf_snd.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002 Course Introduction_with_subsTEMP_MPY_wvf_snd.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flagged/Upload Video/3a320e8c6d54a6c0f008/006 Installing Kali Linux as a VM on Windows.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flagged/log.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flagged/output/2064ad809a95e5ec6c90/006 Installing Kali Linux as a VM on Windows_translated.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mm.py" afterDir="false" />
+    <list default="true" id="71cae3b9-e4e6-4c33-82fa-bc337f4bcb3d" name="Changes" comment="release 1.1">
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -38,6 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -49,22 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.1.executor": "Run",
-    "Python.ma.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mm.executor": "Run",
-    "Python.nn.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/De1pl/Desktop/Destop/Python/VideoTranslater",
-    "settings.editor.selected.configurable": "CodeWithMe"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ma.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nn.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/De1pl/Desktop/Destop/Python/VideoTranslater&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;
   }
-}]]></component>
+}</component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\De1pl\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="ab59ae06-1d83-43fa-a8da-175fc7fd9646" />
+        <option name="reportName" value="VideoTranslater/qodana/2024-08-19" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\De1pl\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="ab59ae06-1d83-43fa-a8da-175fc7fd9646" reportId="VideoTranslater/qodana/2024-08-19" />
+    </option>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VideoTranslater" />
@@ -211,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723398487197</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="release 1.1">
+      <option name="closed" value="true" />
+      <created>1724017384555</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724017384555</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
